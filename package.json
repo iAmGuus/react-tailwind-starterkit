@@ -12,7 +12,7 @@
     "tailwindcss": "^1.1.2"
   },
   "scripts": {
-    "build:style": "tailwind build src/scss/styles.scss -o src/scss/tailwind.css",
+    "build:style": "tailwind build src/scss/tailwind.scss -o public/css/tailwind.css",
     "start": "npm run build:style && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
